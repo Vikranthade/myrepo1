@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Login to kite by zerodha</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body{
+      background-color: #f8f8f8 !important;
+      }
+      .btn{
+        background-color: #ff5722 !important;
+        border: none !important;
+      }
+    .forgot a:hover{
+      color: #ff5722 !important;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="kite container my-5">
+      <div class="zerodhakite">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-12 mx-auto">
+            <div class="card broder rounded-0 shadow p-4 mb-4 bg-white">
+              <div class="card-body">
+                <div class="kitelogo text-center mb-5">
+                  <img src="./assets/kite-logo.svg" alt="" class="mx-auto d-block img-fluid" height="60px" width="60px">
+                </div>
+                <div class="login text-center">
+                  <p class="fs-4">Login to Kite</p>
+                </div>
+                <div class="kiteform">
+                  <form action="">
+                    <div class="mb-4 mt-4">
+                     <input type="text" class="form-control broder rounded-0" id="phoneno" placeholder="phone or User ID" name="phoneno" required>
+                    </div>
+                    <div class="mb-4 mt-4">
+                     <input type="password" class="form-control broder rounded-0" id="Passwords" placeholder="Password" name="Passwords" required>
+                    </div>
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-primary btn-block broder rounded ">Login</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="forgot my-2 text-center">
+                  <a href="#" class="text-decoration-none text-muted fs-6 rounded"><small>Forgot user ID or password?</small></a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
